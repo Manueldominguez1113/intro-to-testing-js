@@ -4,6 +4,10 @@ function helloWorld() {
 }
 
 //sayHello
-function sayHello(){
-
+function sayHello(arg) {
+    if (arg){
+        return "Hello, "+ arg +"!"
+    }
+        else
+        return " "
 }
