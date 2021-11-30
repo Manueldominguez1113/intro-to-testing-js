@@ -5,9 +5,8 @@ function helloWorld() {
 
 //sayHello
 function sayHello(arg) {
-    if (arg){
-        return "Hello, "+ arg +"!"
-    }
-        else
-        return " "
+    if (typeof arg === "string") {
+        return "Hello, " + arg + "!"
+    } else
+        return "Hello, World!"
 }
